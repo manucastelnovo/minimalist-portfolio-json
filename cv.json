@@ -195,6 +195,14 @@
       ]
     },
     {
+      "name": "Express",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend",
+        "Servidor"
+      ]
+    },
+    {
       "name": "Docker",
       "level": "Avanzado",
       "keywords": [
@@ -255,7 +263,11 @@
       "isActive": false,
       "description": "Es una API desarrollada con NestJS que utiliza MariaDB como base de datos relacional con TypeORM para la gestión de entidades, Redis para almacenamiento en caché y mejoras de rendimiento, y AWS S3 para el manejo de almacenamiento de archivos en la nube.",
       "highlights": [
-        "Aws S3"
+        "AWS",
+        "NestJS",
+        "Node",
+        "MariaDb",
+        "Docker"
       ],
       "github": "https://github.com/manucastelnovo/api-e-commerce",
       "url": ""
@@ -265,8 +277,9 @@
       "isActive": false,
       "description": "API RESTful desarrollada con Express.js, siguiendo Domain-Driven Design (DDD) para la gestión de restaurantes. Utiliza postgreSql para la persistencia de datos. Implementa autenticación con JWT,",
       "highlights": [
-        "Mobile App",
-        "JavaScript & TypeScript"
+        "ExpressJs",
+        "TypeScript",
+        "PostgreSql"
       ],
       "github": "https://github.com/manucastelnovo/puae_app_server",
       "url": ""
@@ -274,10 +287,9 @@
     {
       "name": "Chat bot Telegram",
       "isActive": false,
-      "description": "Chatbot de Telegram desarrollado con Node.js, integrado con OpenAI para procesar consultas jurídicas y una base de datos de vectores en Pinecone para recuperar información de la Constitución Nacional de Paraguay. Utiliza LangChain para mejorar la comprensión del texto legal y proporcionar respuestas precisas",
+      "description": "Chatbot de Telegram desarrollado con Python, integrado con OpenAI para procesar consultas jurídicas y una base de datos de vectores en Pinecone para recuperar información de la Constitución Nacional de Paraguay. Utiliza LangChain para mejorar la comprensión del texto legal y proporcionar respuestas precisas",
       "highlights": [
-        "Consultas juridicas",
-        "Chat bot telegram"
+        "Python"
       ],
       "github": "https://github.com/manucastelnovo/chat_bot_telegram",
       "url": ""
