@@ -227,15 +227,19 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "Medium"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Basic"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Music",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Rock",
+        "Punk"
       ]
     }
   ],
@@ -247,66 +251,36 @@
   ],
   "projects": [
     {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "name": "Api E-commerce",
+      "isActive": false,
+      "description": "Es una API desarrollada con NestJS que utiliza MariaDB como base de datos relacional con TypeORM para la gestión de entidades, Redis para almacenamiento en caché y mejoras de rendimiento, y AWS S3 para el manejo de almacenamiento de archivos en la nube.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Aws S3"
       ],
-      "url": "https://mars.codes"
+      "github": "https://github.com/manucastelnovo/api-e-commerce",
+      "url": ""
     },
     {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "name": "Puae Api",
+      "isActive": false,
+      "description": "API RESTful desarrollada con Express.js, siguiendo Domain-Driven Design (DDD) para la gestión de restaurantes. Utiliza postgreSql para la persistencia de datos. Implementa autenticación con JWT,",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
+        "Mobile App",
         "JavaScript & TypeScript"
       ],
-      "url": "https://adventjs.dev"
+      "github": "https://github.com/manucastelnovo/puae_app_server",
+      "url": ""
     },
     {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "name": "Chat bot Telegram",
+      "isActive": false,
+      "description": "Chatbot de Telegram desarrollado con Node.js, integrado con OpenAI para procesar consultas jurídicas y una base de datos de vectores en Pinecone para recuperar información de la Constitución Nacional de Paraguay. Utiliza LangChain para mejorar la comprensión del texto legal y proporcionar respuestas precisas",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "Consultas juridicas",
+        "Chat bot telegram"
       ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "github": "https://github.com/manucastelnovo/chat_bot_telegram",
+      "url": ""
     }
   ]
 }
