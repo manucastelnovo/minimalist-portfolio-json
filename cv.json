@@ -1,29 +1,24 @@
 {
   "basics": {
     "name": "Manuel Castelnovo",
-    "label": "Back End Developer con más de 3 años de experiencia ",
+    "label": "Backend Developer especializado en Fintech con más de 5 años de experiencia",
     "image": "/me.png",
     "email": "manuelcastelnovo88@gmail.com",
-    "phone": "+595 983324030",
-    "url": "",
-    "summary": "Más de 3 años de experiencia como Desarrollador Back-end. Actualmente trabajo como Back-end Developer en Loop. Vivo en Encarnacion, Paraguay. He trabajado en diversos entornos, desde la aceleración de start-ups hasta la optimización de sistemas en empresas multinacionales.",
+    "phone": "+595 983 324 030",
+    "url": "https://minimalist-portfolio-json-steel.vercel.app",
+    "summary": "Desarrollador Backend especializado en soluciones Fintech, con más de 5 años de experiencia diseñando e implementando APIs seguras, sistemas de pago y arquitecturas escalables. He trabajado en el desarrollo de una billetera digital y una API de pagos, integrando procesos de verificación, encriptación y conciliación bancaria. Becado por la Embajada Rusa para estudiar el idioma durante un año en la universidad tecnológica ITMO en San Petersburgo.",
     "location": {
-      "address": "Vyazemskiy Lane, 5-7,",
+      "address": "",
       "postalCode": "",
-      "city": "Encarnacion",
-      "countryCode": "Py",
+      "city": "Encarnación",
+      "countryCode": "PY",
       "region": "Paraguay"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "manucastelnovo",
+        "username": "manu-castelnovo",
         "url": "https://www.linkedin.com/in/manu-castelnovo/"
-      },
-      {
-        "network": "X",
-        "username": "manucastelnovo",
-        "url": ""
       },
       {
         "network": "GitHub",
@@ -34,229 +29,116 @@
   },
   "work": [
     {
-      "name": "Loop",
-      "position": "Back End Developer",
-      "url": "https://www.loops.com.py/",
-      "startDate": "2024-11-01",
+      "name": "Upay",
+      "position": "Backend Developer",
+      "url": "",
+      "startDate": "2025-06-01",
       "endDate": null,
-      "summary": "Desarrollé el backend para Loop, una plataforma de e-commerce, utilizando NestJS, PostgreSQL y TypeORM. Implementé funcionalidades clave como la gestión de productos, usuarios y pedidos, asegurando un rendimiento eficiente y una arquitectura escalable para la aplicación.",
+      "summary": "Desarrollo y mantengo módulos de conciliación (API) de transacciones financieras con NestJS, procesando grandes volúmenes de datos de múltiples fuentes. Optimicé consultas y estructuras en PostgreSQL para conciliaciones masivas y desarrollé una API para configurar el envío de archivos CSV a servidores SFTP, mitigando vulnerabilidades SSRF.",
       "highlights": [
-        "Started the company"
+        "Automaticé la conciliación de tarjetas VISA y Mastercard con una API en NestJS, eliminando más de 8 horas diarias de trabajo manual en Excel sobre más de 50.000 transacciones diarias. Implementado en un quarter.",
+        "Diseñé y desarrollé APIs para clientes externos que exponen datos de transacciones y liquidaciones, con 30 clientes integrados (supermercados, ferreterías y otros comercios de alto flujo), reduciendo un 90% las solicitudes manuales de información.",
+        "Construí dashboards de seguimiento de conciliaciones por marca con Next.js y Claude Code, detectando diferencias y pagos faltantes en menos de 1 hora diaria en lugar de 8, y recuperando el 100% de los pagos pendientes."
       ]
     },
     {
-      "name": "Morfit",
-      "position": "Back End Developer",
-      "url": "https://apps.apple.com/py/app/morfit/id1540967430?mt=8",
-      "startDate": "2023-03-01",
-      "endDate": "2024-05-01",
-      "summary": "Desarrollé una API REST para Morfit, una aplicación de conteo de calorías y seguimiento de dieta, utilizando Node.js, Express.js y PostgreSQL. Además, trabajé en el procesamiento de datos de libros en formato PDF, utilizando expresiones regulares para extraer y estructurar la información antes de cargarla en la base de datos.",
+      "name": "LigoPay",
+      "position": "Backend Developer",
+      "url": "",
+      "startDate": "2024-04-01",
+      "endDate": "2025-06-01",
+      "summary": "Desarrollo y mantenimiento del núcleo backend de Ligopay, una fintech de pagos digitales, afiliaciones y gestión transaccional segura. Implementé QR efímeros de uso único con caducidad, reportes mensuales automatizados, el manejo de estados transaccionales (pendiente, procesado, reversado, rechazado) y microservicios comunicados por eventos y colas con RabbitMQ.",
       "highlights": [
-        "Started the company"
+        "Desarrollé el módulo de afiliación de comercios con Node.js y Next.js, con validaciones automáticas de documentos de identidad y reconocimiento facial, y almacenamiento de documentos.",
+        "Implementé reportes semanales automatizados para más de 50 comercios, reemplazando un proceso manual que llevaba aproximadamente una mañana por comercio.",
+        "Diseñé un módulo de comisiones dinámicas por tipo de negocio con 5 esquemas configurables (porcentaje, monto fijo, tarifa escalonada), eliminando la necesidad de modificar código y desplegar ante cada cambio."
+      ]
+    },
+    {
+      "name": "Loops",
+      "position": "FullStack Developer",
+      "url": "https://www.loops.com.py/",
+      "startDate": "2024-11-01",
+      "endDate": "2025-04-01",
+      "summary": "Desarrollé y mantuve el backend de una plataforma de creación de e-commerce y sitios de suscripción para emprendedores, con NestJS, PostgreSQL y Redis. Apliqué arquitecturas limpias y modulares (SOLID, DDD) y configuré pipelines de CI/CD con GitHub Actions para el build, las pruebas y el despliegue de contenedores Docker.",
+      "highlights": [
+        "Implementé la facturación y renovación automática de suscripciones con Stripe: emisión de facturas, cobro recurrente y notificaciones de vencimiento.",
+        "Armé el esquema genérico de base de datos para la mayoría de los e-commerce, reduciendo el trabajo de alta de nuevos comercios."
       ]
     },
     {
       "name": "Penguin Group",
-      "position": "Full Stack Developer",
+      "position": "FullStack Developer",
       "url": "https://www.linkedin.com/company/somospenguin/",
       "startDate": "2022-08-01",
-      "endDate": "2024-11-01",
-      "summary": "Desarrollé una API REST para Advance, una aplicación alemana de bicicletas eléctricas, utilizando Node.js, Express.js y PostgreSQL. Además, participé en la creación de páginas web en React.js, integrando funcionalidades clave para mejorar la experiencia del usuario.",
+      "endDate": "2024-12-01",
+      "summary": "Desarrollé una aplicación móvil en Flutter para Advance, empresa alemana de bicicletas eléctricas, con mapas interactivos (OpenStreetMap), seguimiento de kilómetros y consumo de calorías, junto con un sistema web complementario para gestionar desafíos y estadísticas de usuarios conectado mediante APIs RESTful.",
       "highlights": [
-        "Started the company"
+        "Desarrollé de punta a punta el módulo de ubicaciones guardadas de la app de Advance (Flutter, OpenStreetMap, API REST), que permite guardar puntos del mapa y reutilizarlos en futuras rutas."
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }
-  ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "Universitat Oberta de Catalunya",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
-      "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
+      "institution": "Universidad ITMO",
+      "url": "https://en.itmo.ru/",
+      "area": "Idioma Ruso",
+      "studyType": "Beca de la Embajada Rusa (presencial)",
+      "startDate": "",
+      "endDate": "",
+      "score": "",
+      "courses": []
     }
   ],
-  "awards": [
-    {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }
-  ],
+  "awards": [],
   "certificates": [
-    {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }
+    { "name": "JavaScript Algorithms and Data Structures", "date": "", "issuer": "freeCodeCamp", "url": "" },
+    { "name": "Curso de PostgreSQL", "date": "", "issuer": "Platzi", "url": "" },
+    { "name": "Curso de diseño web", "date": "", "issuer": "Udemy", "url": "" },
+    { "name": "Fundamentos de TypeScript", "date": "", "issuer": "Platzi", "url": "" },
+    { "name": "Backend con Node.js: API REST con Express.js", "date": "", "issuer": "Platzi", "url": "" },
+    { "name": "Curso de programación orientada a objetos", "date": "", "issuer": "Platzi", "url": "" },
+    { "name": "React y Next.js", "date": "", "issuer": "Udemy", "url": "" },
+    { "name": "Principios SOLID y Clean Code", "date": "", "issuer": "DevTalles", "url": "" },
+    { "name": "Storage with AWS", "date": "", "issuer": "AWS", "url": "" }
   ],
-  "publications": [
-    {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
-    }
-  ],
+  "publications": [],
   "skills": [
-    {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend"
-      ]
-    },
-    {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Backend",
-        "JavaScript",
-        "Servidor"
-      ]
-    },
-    {
-      "name": "Postgresql",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
-    },
-    {
-      "name": "MongoDb",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "noSQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente"
-      ]
-    },
-    {
-      "name": "Nestjs",
-      "level": "Avanzado",
-      "keywords": [
-        "Backend",
-        "Servidor"
-      ]
-    },
-    {
-      "name": "Express",
-      "level": "Avanzado",
-      "keywords": [
-        "Backend",
-        "Servidor"
-      ]
-    },
-    {
-      "name": "Docker",
-      "level": "Avanzado",
-      "keywords": [
-        "Backend"
-      ]
-    },
-    {
-      "name": "Aws",
-      "level": "Avanzado",
-      "keywords": [
-        "Backend",
-        "Cloud"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
-    }
+    { "name": "TypeScript", "level": "Avanzado", "keywords": ["Lenguaje", "Backend", "Frontend"] },
+    { "name": "JavaScript", "level": "Avanzado", "keywords": ["Lenguaje", "Backend", "Frontend"] },
+    { "name": "Python", "level": "Intermedio", "keywords": ["Lenguaje"] },
+    { "name": "Dart", "level": "Intermedio", "keywords": ["Lenguaje", "Mobile"] },
+    { "name": "SQL", "level": "Avanzado", "keywords": ["Lenguaje", "Bases de Datos"] },
+    { "name": "Linux", "level": "Avanzado", "keywords": ["Sistema Operativo"] },
+    { "name": "Node", "level": "Avanzado", "keywords": ["Backend", "Servidor"] },
+    { "name": "Nestjs", "level": "Avanzado", "keywords": ["Backend", "Framework"] },
+    { "name": "Express", "level": "Avanzado", "keywords": ["Backend", "Framework"] },
+    { "name": "Fastify", "level": "Avanzado", "keywords": ["Backend", "Framework"] },
+    { "name": "TypeORM", "level": "Avanzado", "keywords": ["Backend", "ORM"] },
+    { "name": "Mongoose", "level": "Avanzado", "keywords": ["Backend", "ODM"] },
+    { "name": "React", "level": "Avanzado", "keywords": ["Frontend", "UI"] },
+    { "name": "Next.js", "level": "Avanzado", "keywords": ["Frontend", "React Framework"] },
+    { "name": "Flutter", "level": "Avanzado", "keywords": ["Mobile", "UI"] },
+    { "name": "Kafka", "level": "Intermedio", "keywords": ["Mensajería"] },
+    { "name": "RabbitMQ", "level": "Avanzado", "keywords": ["Mensajería"] },
+    { "name": "Redis", "level": "Avanzado", "keywords": ["Caché"] },
+    { "name": "Aws", "level": "Avanzado", "keywords": ["Cloud"] },
+    { "name": "Docker", "level": "Avanzado", "keywords": ["DevOps", "Contenedores"] },
+    { "name": "Kubernetes", "level": "Intermedio", "keywords": ["DevOps", "Orquestación"] },
+    { "name": "GitHub Actions", "level": "Avanzado", "keywords": ["CI/CD"] },
+    { "name": "Postgresql", "level": "Avanzado", "keywords": ["Bases de Datos", "SQL"] },
+    { "name": "MariaDB", "level": "Avanzado", "keywords": ["Bases de Datos", "SQL"] },
+    { "name": "MongoDb", "level": "Avanzado", "keywords": ["Bases de Datos", "NoSQL"] },
+    { "name": "Git", "level": "Avanzado", "keywords": ["Control de Versiones"] }
   ],
   "languages": [
-    {
-      "language": "Spanish",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Medium"
-    },
-    {
-      "language": "Russian",
-      "fluency": "Basic"
-    }
+    { "language": "Español", "fluency": "Nativo" },
+    { "language": "Inglés", "fluency": "B2" },
+    { "language": "Ruso", "fluency": "B1" }
   ],
-  "interests": [
-    {
-      "name": "Music",
-      "keywords": [
-        "Rock",
-        "Punk"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }
-  ],
+  "interests": [],
+  "references": [],
   "projects": [
     {
       "name": "Api E-commerce",
@@ -275,7 +157,7 @@
     {
       "name": "Puae Api",
       "isActive": false,
-      "description": "API RESTful desarrollada con Express.js, siguiendo Domain-Driven Design (DDD) para la gestión de restaurantes. Utiliza postgreSql para la persistencia de datos. Implementa autenticación con JWT,",
+      "description": "API RESTful desarrollada con Express.js, siguiendo Domain-Driven Design (DDD) para la gestión de restaurantes. Utiliza PostgreSQL para la persistencia de datos e implementa autenticación con JWT.",
       "highlights": [
         "ExpressJs",
         "TypeScript",
